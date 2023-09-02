@@ -1,0 +1,35 @@
+{
+  "name": "urlmd-hunter",
+  "version": "1.0.0",
+  "description": "This library aims to assist blogs and websites with posts written in Markdown that contain links to websites. Simply provide the path to the folder or file, and it will return which sites are online and which links no longer work.",
+  "keywords": [
+    "markdown",
+    "URL"
+  ],
+  "main": "./cli.js",
+  "bin": {
+    "urlmd-hunter": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node ./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ribeironicolas/urlmd-hunter.git"
+  },
+  "author": "Nicolas Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ribeironicolas/urlmd-hunter/issues"
+  },
+  "homepage": "https://github.com/ribeironicolas/urlmd-hunter#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
