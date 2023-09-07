@@ -7,9 +7,9 @@
     "markdown",
     "URL"
   ],
-  "main": "./cli.js",
+  "main": "./src/cli.js",
   "bin": {
-    "urlmd-hunter": "./cli.js"
+    "urlmd-hunter": "./src/cli.js"
   },
   "preferGlobal": true,
   "scripts": {
